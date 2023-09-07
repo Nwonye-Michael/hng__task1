@@ -18,7 +18,7 @@ const getCurrentTime = () => {
   date.textContent = currentDay
 
   time.textContent = millisec
-  // console.log(currentTime)
+  console.log(currentTime)
 }
 
 getCurrentTime()
