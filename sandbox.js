@@ -14,11 +14,12 @@ const getCurrentTime = () => {
   const newDate = new Date()
   const currentDay = weekday[newDate.getDay()]
   const currentTime = `${newDate.getHours()}:${newDate.getMinutes()}:${newDate.getSeconds()}`
+  const millisec = newDate.getTime()
   date.textContent = currentDay
 
-  time.textContent = currentTime
-  console.log(currentTime)
+  time.textContent = millisec
+  // console.log(currentTime)
 }
 
 getCurrentTime()
-setInterval(getCurrentTime, 1000)
+setInterval(getCurrentTime, 1)
