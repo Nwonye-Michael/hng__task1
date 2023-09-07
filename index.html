@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stage 1</title>
+  </head>
+  <body>
+    <div class="profile__DP">
+      <img
+        src="./assets/DP.jpeg"
+        alt="slack dp"
+        data-testid="slackDisplayImage"
+      />
+    </div>
+    <div class="profile">
+      <h1 data-testid="slackUserName" class="profile__slackname">
+        Nwonye Michael
+      </h1>
+
+      <p class="profile__track" data-testid="myTrack">Frontend</p>
+      <a
+        href="https://github.com/Nwonye-Michael/hng__task1"
+        class="profile__github"
+        data-testid="“githubURL"
+        >https://github.com/Nwonye-Michael/hng__task1</a
+      >
+    </div>
+
+    <div class="realtime">
+      <p class="realtime__day" data-testid="currentDayOfTheWeek"></p>
+      <p class="realtime__time" data-testid="currentUTCTime"></p>
+    </div>
+
+    <script src="./sandbox.js"></script>
+  </body>
+</html>
