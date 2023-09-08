@@ -22,4 +22,4 @@ const getCurrentTime = () => {
 }
 
 // getCurrentTime()
-setInterval(getCurrentTime, 1000)
+setInterval(getCurrentTime, 1)
