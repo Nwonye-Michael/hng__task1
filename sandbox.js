@@ -14,7 +14,7 @@ const getCurrentTime = () => {
   const newDate = new Date()
   const currentDay = weekday[newDate.getDay()]
   // const currentTime = `${newDate.getHours()}:${newDate.getMinutes()}:${newDate.getSeconds()}`
-  const millisec = `current UTC time : ${newDate.getTime()} milliseconds`
+  const millisec = `current UTC time : ${newDate.now()} milliseconds`
   date.textContent = currentDay
 
   time.textContent = millisec
