@@ -1,5 +1,5 @@
-const date = document.querySelector(".realtime__day")
-const time = document.querySelector(".realtime__time")
+const date = document.querySelector('[data-testid="currentDayOfTheWeek"]')
+const time = document.querySelector('[data-testid="currentUTCTime"]')
 const getCurrentTime = () => {
   const weekday = [
     "Sunday",
